@@ -17,3 +17,32 @@ html, body{
 .cursor{
 	cursor: pointer;
 }
+.mySlider{
+	width: 400px;
+	height: 250px;
+	border: 1px solid gray;
+	margin: auto;
+}
+.sliderArrowRight,
+.sliderArrowLeft {
+	position: absolute;
+	top:0;
+	width: 10%;
+}
+.sliderArrowRight:hover,
+.sliderArrowLeft:hover {
+	font-weight: bold;
+}
+.sliderArrowRight{
+	right:0;
+}
+.sliderArrowLeft{
+	left:0;
+}
+.sliderImg{
+	width: 100%;
+	display: none;
+}
+.sliderImg.active{
+	display: block;
+}
