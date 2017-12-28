@@ -1,0 +1,19 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+.inlineBlock{
+	display: inline-block;
+}
+.posRelative{
+	position: relative;
+}
+.formItems{
+	margin-bottom: 10px;
+}
+.displayNone{
+	display: none;
+}
+.cursor{
+	cursor: pointer;
+}
