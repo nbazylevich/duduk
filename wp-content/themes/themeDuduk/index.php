@@ -6,8 +6,34 @@
     <?php wp_head() ?>
 </head>
 <body>
+<header>
+    <div class="content">
+        <img src="<?php bloginfo('template_url')?>/picture/logo.png" class="logo" alt="logo">
+
+        <div class="header-main-text inlineBlock verticalAlignMiddle">
+            <span>Интернет-магазин профессиональных <br>
+            музыкальных инструментов </span>
+        </div>
+
+        <div class="pull-right">
+            <span class="header-delivery-payment">Доставка</span>
+            <span class="header-delivery-payment">Оплата</span>
+            <span class="header-phone">+7 (499) 346-81-28</span>
+            <div class="inlineBlock header-req-call  text-center">
+                <span>Заказать <br> звонок</span>
+            </div>
+            <div class="header-lang inlineBlock">
+                <span>RU</span>
+                <span>EN</span>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</header>
 <div>
-    Профессиональный дудук от лучших мастеров Армении с пожизненной гарантией
 
  <!--   <div class="mySlider posRelative">
         <div class="blockImgs">
@@ -21,4 +47,12 @@
             <div></div>
         </div>
     </div>-->
+
+
+
+    <div class="block1">
+        <div class="content">
+            Профессиональный дудук от лучших мастеров Армении с пожизненной гарантией
+        </div>
+    </div>
 </div>

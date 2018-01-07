@@ -17,6 +17,83 @@ html, body{
 .cursor{
 	cursor: pointer;
 }
+.verticalAlignMiddle{
+	vertical-align: middle;
+}
+
+
+/*Шрифты - begin*/
+@font-face {
+	font-family: OpenSansRegular; /* Имя шрифта */
+	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	font-family: OpenSansSemiBold;
+	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+	font-family: OpenSansLight;
+	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/OpenSans-Light.ttf);
+}
+@font-face {
+	font-family: RalewayRegular;
+	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/Raleway-Regular.ttf);
+}
+@font-face {
+	font-family: RalewayBold;
+	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/Raleway-Bold.ttf);
+}
+/*Шрифты - end*/
+
+body{
+
+}
+.content{
+	width: 1500px;
+	margin: auto;
+}
+header{
+	background-color: #2a1712;
+	color: #ffffff;
+	padding: 10px 0px;
+}
+.header-main-text{
+	margin-left: 20px;
+	font-size: 13px;
+	font-family: OpenSansRegular;
+}
+.header-delivery-payment{
+	margin-left: 20px;
+	font-size: 16px;
+	font-family: OpenSansSemiBold;
+}
+.header-phone{
+	margin-left: 20px;
+	font-size: 20px;
+	font-family: OpenSansSemiBold;
+}
+.header-req-call{
+	margin-left: 20px;
+	border: 1px solid #9f7c4d;
+	color: #9f7c4d;
+	border-radius: 20px;
+	padding: 1px 35px;
+	text-transform: uppercase;
+	font-size: 13px;
+	vertical-align: top;
+}
+.header-req-call:hover{
+	margin-left: 20px;
+	background-color: #a07d4e;
+	color: #2a1712;
+}
+.header-lang{
+	margin-left: 20px;
+}
+.block1{
+	color: white;
+	background: url(http://duduk/wp-content/themes/themeDuduk//picture/block1_fon.jpg)  100% 100% no-repeat;
+}
 .mySlider{
 	width: 400px;
 	height: 250px;
