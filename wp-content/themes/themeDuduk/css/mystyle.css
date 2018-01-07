@@ -25,15 +25,15 @@ html, body{
 /*Шрифты - begin*/
 @font-face {
 	font-family: OpenSansRegular; /* Имя шрифта */
-	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
+	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/Open_Sans/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
 }
 @font-face {
 	font-family: OpenSansSemiBold;
-	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/OpenSans-SemiBold.ttf);
+	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/Open_Sans/OpenSans-SemiBold.ttf);
 }
 @font-face {
 	font-family: OpenSansLight;
-	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/OpenSans-Light.ttf);
+	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/Open_Sans/OpenSans-Light.ttf);
 }
 @font-face {
 	font-family: RalewayRegular;
