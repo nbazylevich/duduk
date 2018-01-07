@@ -7,5 +7,6 @@ function ntheme_scripts(){
 
     wp_enqueue_script('jquery-2.1.1', get_template_directory_uri() . '/jquery-2.1.1.js' );
     wp_enqueue_script('bootstrap.min', get_template_directory_uri() . '/bootstrap/dist/js/bootstrap.min.js' );
+    wp_enqueue_script('script', get_template_directory_uri() . '/script.js' );
 }
 

@@ -23,6 +23,11 @@ html, body{
 	border: 1px solid gray;
 	margin: auto;
 }
+.blockImgs{
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 0;
+}
 .sliderArrowRight,
 .sliderArrowLeft {
 	position: absolute;
@@ -41,8 +46,6 @@ html, body{
 }
 .sliderImg{
 	width: 100%;
-	display: none;
 }
 .sliderImg.active{
-	display: block;
 }
