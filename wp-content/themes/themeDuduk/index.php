@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 <head>
     <meta charset="utf-8">
     <title>DUDUKIST</title>
     <?php wp_head() ?>
 </head>
-<body>
+<body ng-controller="mainCtrl">
 <header>
     <div class="content">
         <img src="<?php bloginfo('template_url')?>/picture/logo.png" class="logo" alt="logo">
@@ -19,7 +19,7 @@
             <span class="header-delivery-payment">Доставка</span>
             <span class="header-delivery-payment">Оплата</span>
             <span class="header-phone">+7 (499) 346-81-28</span>
-            <div class="inlineBlock header-req-call  text-center">
+            <div class="inlineBlock header-req-call text-center cursor">
                 <span>Заказать <br> звонок</span>
             </div>
             <div class="header-lang inlineBlock">
@@ -50,9 +50,9 @@
 
 
 
-    <div class="block1">
+<!--    <div class="block1">
         <div class="content">
             Профессиональный дудук от лучших мастеров Армении с пожизненной гарантией
         </div>
-    </div>
+    </div>-->
 </div>
