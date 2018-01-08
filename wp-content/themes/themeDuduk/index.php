@@ -16,20 +16,21 @@
         </div>
 
         <div class="pull-right">
-            <span class="header-delivery-payment">Доставка</span>
-            <span class="header-delivery-payment">Оплата</span>
+            <span class="header-delivery-payment localization" caption="Delivery"></span>
+            <span class="header-delivery-payment localization" caption="Payment"></span>
             <span class="header-phone">+7 (499) 346-81-28</span>
             <div class="inlineBlock header-req-call text-center cursor">
-                <span>Заказать <br> звонок</span>
+                <span class="localization" caption="Request a call"></span>
             </div>
-            <div class="header-lang inlineBlock">
-                <span>RU</span>
-                <span>EN</span>
+            <div class="header-langs inlineBlock">
+                <span class="header-lang"
+                      ng-class="{'activeLang': curLang == 'ru', 'cursor': curLang != 'ru'}"
+                      ng-click="curLang != 'ru' ? clickLang('ru') :''">RU</span>
+                <span class="header-lang marginLeft10"
+                      ng-class="{'activeLang': curLang == 'en', 'cursor': curLang != 'en'}"
+                      ng-click="curLang != 'en' ? clickLang('en') :''">EN</span>
             </div>
         </div>
-
-
-
     </div>
 
 </header>

@@ -20,6 +20,12 @@ html, body{
 .verticalAlignMiddle{
 	vertical-align: middle;
 }
+.marginLeft10{
+	margin-left: 10px;
+}
+.marginLeft20{
+	margin-left: 20px;
+}
 
 
 /*Шрифты - begin*/
@@ -37,11 +43,11 @@ html, body{
 }
 @font-face {
 	font-family: RalewayRegular;
-	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/Raleway-Regular.ttf);
+	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/Raleway/Raleway-Regular.ttf);
 }
 @font-face {
 	font-family: RalewayBold;
-	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/Raleway-Bold.ttf);
+	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/Raleway/Raleway-Bold.ttf);
 }
 /*Шрифты - end*/
 
@@ -49,7 +55,8 @@ body{
 
 }
 .content{
-	width: 1500px;
+	max-width: 1510px;
+	padding: 0 10px;
 	margin: auto;
 }
 header{
@@ -81,14 +88,24 @@ header{
 	text-transform: uppercase;
 	font-size: 13px;
 	vertical-align: top;
+	width: 150px;
 }
 .header-req-call:hover{
 	margin-left: 20px;
 	background-color: #a07d4e;
 	color: #2a1712;
 }
-.header-lang{
+.header-langs{
 	margin-left: 20px;
+	font-family: RalewayBold;
+	color: #7a6c69;
+}
+.header-lang:hover{
+	text-decoration: underline;
+}
+.activeLang{
+	color: white;
+	text-decoration: underline;
 }
 .block1{
 	color: white;
