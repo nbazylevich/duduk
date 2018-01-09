@@ -3,6 +3,9 @@ angular.module('myApp', [])
 
         $(document).ready(function(){
             $scope.curLang = getCookie("DUDUKIST_lang");
+            if(!$scope.curLang){
+                $scope.curLang = 'ru';
+            }
             translatedContent($scope.curLang);
             $timeout(function(){})
         });
