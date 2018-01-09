@@ -51,9 +51,40 @@
 
 
 
-<!--    <div class="block1">
+    <div class="block1">
+        <img src="<?php bloginfo('template_url')?>/picture/block1_fon.jpg" alt="block1_fon" class="block1_fon">
         <div class="content">
-            Профессиональный дудук от лучших мастеров Армении с пожизненной гарантией
+            <div class="block1-content">
+                <h1 class="mainTitle">Профессиональный дудук от лучших мастеров Армении с пожизненной гарантией</h1>
+
+                <div class="row dudukDescr">
+                    <div class="col-xs-4 white-space-nowrap">
+                        <img src="<?php bloginfo('template_url')?>/picture/apricot.png" alt="icon_apricot">
+                        <div class="inlineBlock dudukDescr_text paddingLeft10 white-space-normal">Изготовлен из  абрикосового дерева</div>
+                    </div>
+                    <div class="col-xs-4 white-space-nowrap">
+                        <img src="<?php bloginfo('template_url')?>/picture/thumbUp.png" alt="icon_thumbUp">
+                        <div class="inlineBlock dudukDescr_text paddingLeft10 white-space-normal">100% ручная  работа мастера</div>
+                    </div>
+                    <div class="col-xs-4 white-space-nowrap">
+                        <img src="<?php bloginfo('template_url')?>/picture/note.png" alt="icon_note">
+                        <div class="inlineBlock dudukDescr_text paddingLeft10 white-space-normal">Идеальное звучание  каждой ноты</div>
+                    </div>
+                </div>
+
+                <div class="block1_buttons">
+                    <div class="showVideo text-center cursor inlineBlock">
+                        <img src="<?php bloginfo('template_url')?>/picture/orange-triangle.png" class="" alt="icon_orange-triangle">
+                        &nbsp;&nbsp;&nbsp;Смотреть видео
+                    </div>
+                    &nbsp;&nbsp;&nbsp;
+                    <div class="searchDuduk text-center cursor inlineBlock">
+                        Подобрать интсрумент
+                    </div>
+                </div>
+                <br><br><br>
+            </div>
+
         </div>
-    </div>-->
+    </div>
 </div>

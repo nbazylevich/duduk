@@ -20,11 +20,21 @@ html, body{
 .verticalAlignMiddle{
 	vertical-align: middle;
 }
+.white-space-normal{
+	white-space: normal;
+}
+.white-space-nowrap{
+	white-space: nowrap;
+}
 .marginLeft10{
 	margin-left: 10px;
 }
 .marginLeft20{
 	margin-left: 20px;
+}
+
+.paddingLeft10{
+	padding-left: 10px;
 }
 
 
@@ -48,6 +58,14 @@ html, body{
 @font-face {
 	font-family: RalewayBold;
 	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/Raleway/Raleway-Bold.ttf);
+}
+@font-face {
+	font-family: RalewayExtraBold;
+	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/Raleway/Raleway-ExtraBold.ttf);
+}
+@font-face {
+	font-family: RalewayMedium;
+	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/Raleway/Raleway-Medium.ttf);
 }
 /*Шрифты - end*/
 
@@ -109,7 +127,47 @@ header{
 }
 .block1{
 	color: white;
-	background: url(http://duduk/wp-content/themes/themeDuduk//picture/block1_fon.jpg)  100% 100% no-repeat;
+	/*background: url(http://duduk/wp-content/themes/themeDuduk//picture/block1_fon.jpg)  100% 100% no-repeat;*/
+}
+.block1_fon{
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+.block1-content{
+	max-width: 70%;
+	padding-top:20%;
+	padding-left: 10%;
+	font-family: RalewayMedium;
+}
+.mainTitle{
+	font-size: 60px;
+	font-family: RalewayBold;
+	margin-bottom: 60px;
+}
+.dudukDescr{
+	margin-bottom: 60px;
+}
+.dudukDescr_text{
+	font-size: 17px;
+	width: 200px;
+	vertical-align: middle;
+}
+.searchDuduk,
+.showVideo{
+	font-family: RalewayExtraBold;
+	font-size: 15px;
+	text-transform: uppercase;
+	width: 250px;
+	height: 80px;
+	line-height: 80px;
+}
+.showVideo{
+	border: 1px solid #ff8502;
+}
+.searchDuduk{
+	color: white;
+	background-color: #ff9502;
 }
 .mySlider{
 	width: 400px;
@@ -142,4 +200,46 @@ header{
 	width: 100%;
 }
 .sliderImg.active{
+}
+
+
+/*Адаптивность*/
+@media screen and (max-width: 1500px) {
+	.block1-content{
+		max-width: 80%;
+	}
+	.mainTitle{
+		font-size: 45px;
+	}
+	.searchDuduk,
+	.showVideo{
+		font-size: 14px;
+		height: 65px;
+		line-height: 65px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.block1-content{
+		max-width: 90%;
+	}
+	.mainTitle{
+		font-size: 30px;
+	}
+	.searchDuduk,
+	.showVideo{
+		font-size: 14px;
+		width: 200px;
+		height: 60px;
+		line-height: 60px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.searchDuduk,
+	.showVideo{
+		font-size: 12px;
+		width: 200px;
+		height: 40px;
+		line-height: 40px;
+	}
 }
