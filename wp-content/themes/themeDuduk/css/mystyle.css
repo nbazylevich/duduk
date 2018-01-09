@@ -74,7 +74,7 @@ body{
 }
 .content{
 	max-width: 1510px;
-	padding: 0 10px;
+	padding: 0 20px;
 	margin: auto;
 }
 header{
@@ -168,6 +168,12 @@ header{
 .searchDuduk{
 	color: white;
 	background-color: #ff9502;
+}
+.block2{
+	margin-top: 30px;
+}
+.guaranteeLife{
+	width: 100%;
 }
 .mySlider{
 	width: 400px;

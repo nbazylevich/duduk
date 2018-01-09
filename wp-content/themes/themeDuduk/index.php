@@ -87,4 +87,21 @@
 
         </div>
     </div>
+
+    <div class="block2">
+        <div class="content">
+            <div class="row">
+                <div class="col-xs-6">
+                    <img src="<?php bloginfo('template_url')?>/picture/guaranteeLife.png" class="guaranteeLife" alt="guaranteeLife">
+                </div>
+                <div class="col-xs-6">
+                    <h2 class="voiceArmenia">Армению можно  не только увидеть.  Её можно услышать  в звучани дудука</h2>
+                    <p>
+                        Дудук — аутентичный армянский народный инструмент.
+                        Он обладает  тёплым, мягким
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
