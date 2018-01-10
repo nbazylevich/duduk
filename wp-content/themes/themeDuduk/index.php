@@ -153,6 +153,19 @@
                 Мы буквально живём этой музыкой.
                 Посмотрите наши проекты, связанные с популяризацией дудука в России И СНГ
             </div>
+            <br><br>
+
+            <div class="block4_tabs text-center">
+                <ul class="list-unstyled">
+                    <li class="inlineBlock block4_tabs_item cursor"
+                        ng-repeat="item in block4Tabs"
+                        ng-click="clickBlock4TabItem(item)"
+                        ng-class="{'active': item.active}">
+                        <img src="<?php bloginfo('template_url')?>/picture/{{item.img}}" alt="icons">
+                        <span ng-bind="item.name" title="<?php bloginfo('template_url')?>/picture/{{item.img}}"></span>
+                    </li>
+                </ul>
+            </div>
 
         </div>
     </div>

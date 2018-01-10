@@ -39,6 +39,18 @@ angular.module('myApp', [])
             });
         }
 
+        $scope.block4Tabs = [
+            {indx: 1, name: "Школа дудука", img: "icon_schoolDuduk.png", active: false},
+            {indx: 2, name: "Фестиваль дудука", img: "icon_festDuduk.png", active: true},
+            {indx: 3, name: "Передача «Музыка души»", img: "icon_showAboutMusic.png", active: false},
+            {indx: 4, name: "Концерты и выступления", img: "icon_concert.png", active: false}
+        ];
+
+        $scope.clickBlock4TabItem = function(item){
+            for(var i = 0; i < $scope.block4Tabs.length; i++){
+                $scope.block4Tabs[i].active = ($scope.block4Tabs[i].indx == item.indx)
+            }
+        };
 
         $scope.enLang = {
             'Delivery': 'EN:Доставка',

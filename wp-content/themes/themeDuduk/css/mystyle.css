@@ -225,6 +225,25 @@ header{
 	font-family: RalewayRegular;
 	font-size: 15px;
 }
+.block4_tabs{
+	text-transform: uppercase;
+	font-family: RalewayBold;
+	font-size: 0px;
+	color: #613c09;
+	margin: auto;
+}
+.block4_tabs_item{
+	font-size: 14px;
+	background-color: #ffefdc;
+	border: 1px solid #dbc29f;
+	height: 125px;
+	line-height: 125px;
+	width: 25%;
+}
+.block4_tabs_item.active,
+.block4_tabs_item:hover{
+	background-color: #e6caab;
+}
 .mySlider{
 	width: 400px;
 	height: 250px;
@@ -289,6 +308,11 @@ header{
 		height: 60px;
 		line-height: 60px;
 	}
+	.block4_tabs_item{
+		font-size: 12px;
+		height: 110px;
+		line-height: 110px;
+	}
 }
 @media screen and (max-width: 1000px) {
 	.searchDuduk,
@@ -304,5 +328,7 @@ header{
 	.aboutDuduk{
 		font-family: RalewayMedium;
 		font-size: 18px;
+	}
+	.block4_tabs_item{
 	}
 }
