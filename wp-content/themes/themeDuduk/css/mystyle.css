@@ -173,7 +173,16 @@ header{
 	margin-top: 30px;
 }
 .guaranteeLife{
-	width: 100%;
+	max-width: 600px;
+	width: 100%
+}
+.voiceArmenia{
+	font-family: RalewayBold;
+	font-size: 50px;
+}
+.aboutDuduk{
+	font-family: RalewayMedium;
+	font-size: 20px;
 }
 .mySlider{
 	width: 400px;
@@ -247,5 +256,12 @@ header{
 		width: 200px;
 		height: 40px;
 		line-height: 40px;
+	}
+	.voiceArmenia{
+		font-size: 46px;
+	}
+	.aboutDuduk{
+		font-family: RalewayMedium;
+		font-size: 18px;
 	}
 }
