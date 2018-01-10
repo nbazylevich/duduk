@@ -96,7 +96,7 @@
                 </div>
                 <div class="col-xs-6">
                     <br><br>
-                    <h2 class="voiceArmenia">Армению можно  не только увидеть.  Её можно услышать  в звучани дудука</h2>
+                    <h2 class="voiceArmenia fontSize50">Армению можно  не только увидеть.  Её можно услышать  в звучани дудука</h2>
 
                     <br>
                     <p class="aboutDuduk">
@@ -119,7 +119,7 @@
         <div class="content block3_content0">
             <div class="row">
                 <div class="col-xs-6">
-                    <h3 class="block3_title">
+                    <h3 class="block3_title fontSize50">
                         Узнайте всё  о компании Dudukist  и дудуке за 2 минуты
                     </h3>
                     <br><br>
@@ -162,7 +162,7 @@
                         ng-click="clickBlock4TabItem(item)"
                         ng-class="{'active': item.active}">
                         <img src="<?php bloginfo('template_url')?>/picture/{{item.img}}" alt="icons">
-                        <span ng-bind="item.name" title="<?php bloginfo('template_url')?>/picture/{{item.img}}"></span>
+                        &nbsp;<span ng-bind="item.name" title="<?php bloginfo('template_url')?>/picture/{{item.img}}"></span>
                     </li>
                 </ul>
             </div>
