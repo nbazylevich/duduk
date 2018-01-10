@@ -73,7 +73,7 @@ body{
 
 }
 .content{
-	max-width: 1510px;
+	max-width: 1520px;
 	padding: 0 20px;
 	margin: auto;
 }
@@ -127,12 +127,13 @@ header{
 }
 .block1{
 	color: white;
-	/*background: url(http://duduk/wp-content/themes/themeDuduk//picture/block1_fon.jpg)  100% 100% no-repeat;*/
 }
 .block1_fon{
-	position: absolute;
 	width: 100%;
-	z-index: -1;
+}
+.block1-content0{
+	position: absolute;
+	top:0;
 }
 .block1-content{
 	max-width: 70%;

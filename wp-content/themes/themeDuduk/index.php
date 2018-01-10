@@ -51,9 +51,9 @@
 
 
 
-    <div class="block1">
+    <div class="block1 posRelative">
         <img src="<?php bloginfo('template_url')?>/picture/block1_fon.jpg" alt="block1_fon" class="block1_fon">
-        <div class="content">
+        <div class="content block1-content0">
             <div class="block1-content">
                 <h1 class="mainTitle">Профессиональный дудук от лучших мастеров Армении с пожизненной гарантией</h1>
 
