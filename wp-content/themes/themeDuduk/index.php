@@ -115,15 +115,15 @@
 
     <br><br>
     <div class="block3 posRelative">
-        <img src="<?php bloginfo('template_url')?>/picture/block3_fon.jpg" alt="block1_fon" class="block1_fon">
+        <img src="<?php bloginfo('template_url')?>/picture/block3_fon.jpg" alt="block3_fon" class="block3_fon">
         <div class="content block3_content0">
             <div class="row">
                 <div class="col-xs-6">
-                    <div class="block3_title">
+                    <h3 class="block3_title">
                         Узнайте всё  о компании Dudukist  и дудуке за 2 минуты
-                    </div>
+                    </h3>
                     <br><br>
-                    <div  class="block3_text1">
+                    <div class="block3_text1">
                         «Наша миссия — сделать так,
                         чтобы  в мире звучал только настоящий истинный голос великолепного дудука»
                     </div>
@@ -136,4 +136,25 @@
             </div>
         </div>
     </div>
+
+    <br><br>
+    <div class="block4">
+        <div class="content">
+            <div class="text-center">
+                <img src="<?php bloginfo('template_url')?>/picture/heart.png" alt="heart">
+            </div>
+            <br>
+            <div class="formItems">
+                <h3 class="block4_title text-center content2">
+                    Dudukist создан фанатами дудука  и армянской культуры
+                </h3>
+            </div>
+            <div class="block4_text1 text-center content3">
+                Мы буквально живём этой музыкой.
+                Посмотрите наши проекты, связанные с популяризацией дудука в России И СНГ
+            </div>
+
+        </div>
+    </div>
+    <br><br>
 </div>

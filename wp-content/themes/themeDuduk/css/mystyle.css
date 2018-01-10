@@ -81,6 +81,14 @@ body{
 	padding: 0 20px;
 	margin: auto;
 }
+.content2{
+	max-width: 1000px;
+	margin: auto;
+}
+.content3{
+	max-width: 600px;
+	margin: auto;
+}
 header{
 	background-color: #2a1712;
 	color: #ffffff;
@@ -132,7 +140,8 @@ header{
 .block1{
 	color: white;
 }
-.block1_fon{
+.block1_fon,
+.block3_fon{
 	width: 100%;
 }
 .block1-content0{
@@ -207,6 +216,14 @@ header{
 	top: 0px;
 	padding-top:10%;
 	padding-left: 10%;
+}
+.block4_title{
+	font-family: RalewayBold;
+	font-size: 40px;
+}
+.block4_text1{
+	font-family: RalewayRegular;
+	font-size: 15px;
 }
 .mySlider{
 	width: 400px;
