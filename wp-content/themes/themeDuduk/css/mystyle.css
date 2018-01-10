@@ -67,6 +67,10 @@ html, body{
 	font-family: RalewayMedium;
 	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/Raleway/Raleway-Medium.ttf);
 }
+@font-face {
+	font-family: RalewaySemiBold;
+	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/Raleway/Raleway-SemiBold.ttf);
+}
 /*Шрифты - end*/
 
 body{
@@ -184,6 +188,25 @@ header{
 .aboutDuduk{
 	font-family: RalewayMedium;
 	font-size: 20px;
+}
+.block3_title{
+	font-family: RalewayBold;
+	font-size: 50px;
+}
+.block3_text1{
+	font-family: RalewaySemiBold;
+	font-size: 26px;
+}
+.block3_text2{
+	font-family: RalewayMedium;
+	font-size: 16px;
+}
+.block3_content0{
+	color: white;
+	position: absolute;
+	top: 0px;
+	padding-top:10%;
+	padding-left: 10%;
 }
 .mySlider{
 	width: 400px;

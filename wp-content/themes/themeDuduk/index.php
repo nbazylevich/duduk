@@ -112,4 +112,28 @@
             </div>
         </div>
     </div>
+
+    <br><br>
+    <div class="block3 posRelative">
+        <img src="<?php bloginfo('template_url')?>/picture/block3_fon.jpg" alt="block1_fon" class="block1_fon">
+        <div class="content block3_content0">
+            <div class="row">
+                <div class="col-xs-6">
+                    <div class="block3_title">
+                        Узнайте всё  о компании Dudukist  и дудуке за 2 минуты
+                    </div>
+                    <br><br>
+                    <div  class="block3_text1">
+                        «Наша миссия — сделать так,
+                        чтобы  в мире звучал только настоящий истинный голос великолепного дудука»
+                    </div>
+                    <br>
+                    <div class="block3_text2">
+                        Сурен Багдасарян <br>
+                        Сооснователь DUDUKIST
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
