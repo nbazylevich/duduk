@@ -192,10 +192,12 @@ header{
 }
 .showVideo{
 	border: 1px solid #ff8502;
+	border-radius: 3px;
 }
 .searchDuduk{
 	color: white;
 	background-color: #ff9502;
+	border-radius: 3px;
 }
 .block2{
 	margin-top: 30px;
@@ -275,6 +277,40 @@ header{
 	background-color: #664f34;
 	color: white;
 }
+.block5{
+	color: #343434;
+}
+.block5_title{
+	font-family: RalewayBold;
+	font-size: 55px;
+}
+.block5_text1{
+	font-family: RalewayRegular;
+	font-size: 22px;
+}
+.block5 img{
+	width: 100%;
+}
+.master{
+	padding: 10px 0;
+	background-color: #fcf4eb;
+	min-height: 230px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.master_text{
+	margin: auto;
+	width: 70%;
+}
+.masterName{
+	font-family: RalewayBold;
+	font-size: 35px;
+}
+.aboutMaster{
+	font-family: RalewayRegular;
+	font-size: 16px;
+}
+
 .mySlider{
 	width: 400px;
 	height: 250px;

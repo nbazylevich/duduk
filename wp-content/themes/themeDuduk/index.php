@@ -192,6 +192,62 @@
                 </div>
             </div>
         </div>
+
+        <br><br>
+        <div class="block5">
+            <div class="margin0_20">
+                <div class="content">
+                    <h3 class="block5_title text-center">Изготовление дудука — искусство,  доступное избранным мастерам</h3>
+                    <br>
+                    <div class="block5_text1 content2 text-center">
+                        Инструмент изготавливают величайшие мастера своего дела  Карен Мукаелян и Манвел Мнацаканян.
+                        Технология изготовления отточена веками и передаётся от учителя к ученику лично.
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <div class="col-xs-6 text-center ">
+
+                            <div>
+                                <img src="<?php bloginfo('template_url')?>/picture/master1.png" alt="master1">
+                            </div>
+
+                            <div class="master">
+                                <div class="master_text">
+                                    <h4 class="masterName">Мастер Манвел  Мнацаканян</h4>
+                                    <div class="aboutMaster">
+                                        Посвятил 40 лет жизни искусству дудука. В 1985 работал подмастерьем у мастера
+                                        Георгия Минасова, который  обучал его изготовлению дудука. Манвел изготавливает лучшие дудуки и трости для легендарных
+                                        армянских музыкантов: Георгия Минасова, Дживана Гаспаряна, Геворга Дабагяна.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-xs-6 text-center">
+                            <img src="<?php bloginfo('template_url')?>/picture/master2.png" alt="master2">
+
+                            <div class="master">
+                                <div class="master_text">
+                                    <h4 class="masterName">Мастер Карен Мукаелян</h4>
+                                    <div class="aboutMaster">
+                                        Занимается изготавливанием дудуков  более 25 лет.  После усовершенствований и поправок тембра, тональности и прочности,
+                                        дудуки Карена Мукаеляна являются одним изз самых профессиональных инструментов на рынке.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+                    <div class="text-center">
+                        <div class="searchDuduk text-center cursor inlineBlock">
+                            Подобрать инструмент
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
     <br><br>
 </div>
