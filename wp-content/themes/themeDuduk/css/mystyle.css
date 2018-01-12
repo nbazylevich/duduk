@@ -8,6 +8,9 @@ html, body{
 .posRelative{
 	position: relative;
 }
+.posAbsolute{
+	position: absolute;
+}
 .formItems{
 	margin-bottom: 10px;
 }
@@ -32,12 +35,20 @@ html, body{
 .marginLeft20{
 	margin-left: 20px;
 }
+.margin0_20{
+	margin: 0 20px;
+}
 
 .paddingLeft10{
 	padding-left: 10px;
 }
 .fontSize50{
 	font-size: 50px;
+}
+.sticky {
+	position: sticky;
+	top: 0;
+	z-index: 1;
 }
 
 
@@ -80,8 +91,7 @@ body{
 
 }
 .content{
-	max-width: 1520px;
-	padding: 0 20px;
+	max-width: 1500px;
 	margin: auto;
 }
 .content2{
@@ -144,7 +154,8 @@ header{
 	color: white;
 }
 .block1_fon,
-.block3_fon{
+.block3_fon,
+.block4_fon{
 	width: 100%;
 }
 .block1-content0{
@@ -219,6 +230,7 @@ header{
 	top: 0px;
 	padding-top:10%;
 	padding-left: 10%;
+	padding-right: 20px;
 }
 .block4_title{
 	font-family: RalewayBold;
@@ -235,6 +247,9 @@ header{
 	color: #613c09;
 	margin: auto;
 }
+.block4_tabs ul{
+	margin: 0;
+}
 .block4_tabs_item{
 	font-size: 14px;
 	background-color: #ffefdc;
@@ -246,6 +261,19 @@ header{
 .block4_tabs_item.active,
 .block4_tabs_item:hover{
 	background-color: #e6caab;
+}
+/*.block4_tab2_content1{*/
+	/*position: absolute;*/
+	/*top:0;*/
+
+	/*background-color: #664f34;*/
+	/*width: 50%;*/
+	/*color: white;*/
+/*}*/
+.block4_tab2_content1{
+
+	background-color: #664f34;
+	color: white;
 }
 .mySlider{
 	width: 400px;
