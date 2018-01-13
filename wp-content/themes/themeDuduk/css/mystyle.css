@@ -48,7 +48,7 @@ html, body{
 .sticky {
 	position: sticky;
 	top: 0;
-	z-index: 1;
+	z-index: 2;
 }
 
 
@@ -310,12 +310,54 @@ header{
 	font-family: RalewayRegular;
 	font-size: 16px;
 }
+.block6{
+	background-color: #0b0c0c;
+	padding-top: 50px;
+	color: white;
+}
+.block6_title{
+	font-family: RalewayBold;
+	font-size: 60px;
+	width: 70%;
+}
+.block6_text1{
+	font-family: RalewayMedium;
+	font-size: 26px;
+	width: 50%;
+}
+.block6_text2{
+	font-family: RalewayBold;
+	font-size: 26px;
+}
+.sliderImg1{
+	background: url(http://duduk/wp-content/themes/themeDuduk/picture/block6_slider1.png) 100% 100% no-repeat;
+}
+.sliderImg2{
+	background: url(http://duduk/wp-content/themes/themeDuduk/picture/block6_slider2.png) 100% 0 no-repeat;
+}
+.sliderImg3{
+	background: url(http://duduk/wp-content/themes/themeDuduk/picture/block6_slider3.png) 100% 0 no-repeat;
+}
+.slider_toggle{
+	font-family: RalewayRegular;
+	font-size: 30px;
+	color: #b69978;
+	height: 55px;
+}
+.slider_number{
+	border: 1px solid #64431f;
+	height: 55px;
+	position: absolute;
+	left: 25px;
+	width: 130px;
+	padding-top: 3px;
+}
 
 .mySlider{
-	width: 400px;
-	height: 250px;
-	border: 1px solid gray;
-	margin: auto;
+	/*width: 400px;*/
+	/*height: 250px;*/
+	/*border: 1px solid gray;*/
+	/*margin: auto;*/
 }
 .blockImgs{
 	white-space: nowrap;
@@ -324,13 +366,17 @@ header{
 }
 .sliderArrowRight,
 .sliderArrowLeft {
-	position: absolute;
-	top:0;
-	width: 10%;
+	background-color: #d0b08a;
+	width: 55px;
+	height: 55px;
+	border-radius: 30px;
+	position: relative;
+	z-index: 1;
+	padding-top: 3px;
 }
 .sliderArrowRight:hover,
 .sliderArrowLeft:hover {
-	font-weight: bold;
+	background-color: #64431f;
 }
 .sliderArrowRight{
 	right:0;
@@ -340,6 +386,8 @@ header{
 }
 .sliderImg{
 	width: 100%;
+	font-size: 12px;
+	white-space: normal;
 }
 .sliderImg.active{
 }

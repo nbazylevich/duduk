@@ -39,7 +39,7 @@
 </header>
 <div>
 
- <!--   <div class="mySlider posRelative">
+    <!--<div class="mySlider posRelative">
         <div class="blockImgs">
             <img src="<?php /*bloginfo('template_url')*/?>/picture/1.jpg" class="sliderImg active" alt="">
             <img src="<?php /*bloginfo('template_url')*/?>/picture/2.jpg" class="sliderImg" alt="">
@@ -244,6 +244,114 @@
                             Подобрать инструмент
                         </div>
                     </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <br><br>
+        <div class="block6">
+            <div class="margin0_20">
+                <div class="content" style="padding-left: 10%">
+                    <div class="mySlider posRelative">
+                        <div class="blockImgs">
+                            <div class="sliderImg inlineBlock sliderImg1 active">
+                                <div>
+                                    <br><br>
+                                    <h3 class="block6_title">
+                                        Отзывы профессиональных музыкантов о нашем  инструменте
+                                    </h3>
+                                    <br><br><br>
+                                    <div class="slider_toggle inlineBlock posRelative">
+                                        <div class="sliderArrowLeft inlineBlock text-center cursor">
+                                            <img src="<?php bloginfo('template_url')?>/picture/caret-left.png" alt="caret-left">
+                                        </div>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <div class="slider_number inlineBlock text-center"> 1/3 </div>
+                                        <div class="sliderArrowRight inlineBlock text-center cursor">
+                                            <img src="<?php bloginfo('template_url')?>/picture/caret-right.png" alt="caret-right">
+                                        </div>
+                                    </div>
+                                    <br><br><br><br>
+                                    <div class="block6_text1">
+                                        «На сегодняшний день Карен Мукаелян — лучший мастер по изготовлению дудуков:
+                                        звучных, эргономичных и долговечных.Его инструменты зарекомендовали себя на больших сценах,
+                                        в студиях звукозаписи и в руках большинства дудукистов мира»
+                                    </div>
+                                    <br>
+                                    <div class="block6_text2">
+                                        Дудукист Argishty
+                                    </div>
+                                    <br><br><br><br>
+                                </div>
+
+                            </div>
+                            <div class="sliderImg inlineBlock sliderImg2">
+                                <div>
+                                    <br><br>
+                                    <h3 class="block6_title">
+                                        Отзывы профессиональных музыкантов о нашем  инструменте
+                                    </h3>
+                                    <br><br><br>
+                                    <div class="slider_toggle inlineBlock posRelative">
+                                        <div class="sliderArrowLeft inlineBlock text-center cursor">
+                                            <img src="<?php bloginfo('template_url')?>/picture/caret-left.png" alt="caret-left">
+                                        </div>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <div class="slider_number inlineBlock text-center"> 2/3 </div>
+                                        <div class="sliderArrowRight inlineBlock text-center cursor">
+                                            <img src="<?php bloginfo('template_url')?>/picture/caret-right.png" alt="caret-right">
+                                        </div>
+                                    </div>
+                                    <br><br><br><br>
+                                    <div class="block6_text1">
+                                        «На сегодняшний день в Армении много мастеров по изготовлению дудука. Но только избранным доступно
+                                        сделать превосходный по звучанию инструмент. Такими мастерами являются Карен Мукаелян и Манвел Мнацаканян»
+                                    </div>
+                                    <br>
+                                    <div class="block6_text2">
+                                        Рафаэль Мкртчан профессиональный дудукист
+                                    </div>
+                                    <br><br><br><br>
+                                </div>
+                            </div>
+                            <div class="sliderImg inlineBlock sliderImg3">
+                                <div>
+                                    <br><br>
+                                    <h3 class="block6_title">
+                                        Отзывы профессиональных музыкантов о нашем  инструменте
+                                    </h3>
+                                    <br><br><br>
+                                    <div class="slider_toggle inlineBlock posRelative">
+                                        <div class="sliderArrowLeft inlineBlock text-center cursor">
+                                            <img src="<?php bloginfo('template_url')?>/picture/caret-left.png" alt="caret-left">
+                                        </div>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <div class="slider_number inlineBlock text-center"> 3/3 </div>
+                                        <div class="sliderArrowRight inlineBlock text-center cursor">
+                                            <img src="<?php bloginfo('template_url')?>/picture/caret-right.png" alt="caret-right">
+                                        </div>
+                                    </div>
+                                    <br><br><br><br>
+                                    <div class="block6_text1">
+                                        «При изготовлении любого своего инструмента,  легендарный мастер Карен Мукаелян отдает частицу себя и вкладывает душу»
+                                    </div>
+                                    <br>
+                                    <div class="block6_text2">
+                                        Армен Ованнесян профессиональный дудукист
+                                    </div>
+                                    <br><br><br><br>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+
+
+                    </div>
+
+
+
 
                 </div>
             </div>
