@@ -357,7 +357,7 @@ header{
 }
 .block7{
 }
-.block7_title{
+.block7_title, .block8_title{
 	font-family: RalewayBold;
 	font-size: 55px;
 }
@@ -368,6 +368,16 @@ header{
 .block7_text3{
 	font-family: RalewayBold;
 	font-size: 20px;
+}
+.block8{
+	background: #352824 url(http://duduk/wp-content/themes/themeDuduk/picture/block8_fon.jpg) 100% 100% no-repeat;
+	color: white;
+	font-family: RalewayBold;
+	padding-top: 150px;
+	min-height: 890px;
+}
+.block8_text1{
+	font-size: 28px;
 }
 
 .mySlider{

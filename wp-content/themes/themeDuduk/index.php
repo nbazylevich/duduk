@@ -193,181 +193,207 @@
             </div>
         </div>
 
-        <br><br>
-        <div class="block5">
-            <div class="margin0_20">
-                <div class="content">
-                    <h3 class="block5_title text-center">Изготовление дудука — искусство,  доступное избранным мастерам</h3>
-                    <br>
-                    <div class="block5_text1 content2 text-center">
-                        Инструмент изготавливают величайшие мастера своего дела  Карен Мукаелян и Манвел Мнацаканян.
-                        Технология изготовления отточена веками и передаётся от учителя к ученику лично.
-                    </div>
-                    <br><br>
-                    <div class="row">
-                        <div class="col-xs-6 text-center ">
 
-                            <div>
-                                <img src="<?php bloginfo('template_url')?>/picture/master1.png" alt="master1">
-                            </div>
-
-                            <div class="master">
-                                <div class="master_text">
-                                    <h4 class="masterName">Мастер Манвел  Мнацаканян</h4>
-                                    <div class="aboutMaster">
-                                        Посвятил 40 лет жизни искусству дудука. В 1985 работал подмастерьем у мастера
-                                        Георгия Минасова, который  обучал его изготовлению дудука. Манвел изготавливает лучшие дудуки и трости для легендарных
-                                        армянских музыкантов: Георгия Минасова, Дживана Гаспаряна, Геворга Дабагяна.
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-xs-6 text-center">
-                            <img src="<?php bloginfo('template_url')?>/picture/master2.png" alt="master2">
-
-                            <div class="master">
-                                <div class="master_text">
-                                    <h4 class="masterName">Мастер Карен Мукаелян</h4>
-                                    <div class="aboutMaster">
-                                        Занимается изготавливанием дудуков  более 25 лет.  После усовершенствований и поправок тембра, тональности и прочности,
-                                        дудуки Карена Мукаеляна являются одним изз самых профессиональных инструментов на рынке.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br>
-                    <div class="text-center">
-                        <div class="searchDuduk text-center cursor inlineBlock">
-                            Подобрать инструмент
-                        </div>
-                    </div>
-
+    </div>
+    <br><br>
+    <div class="block5">
+        <div class="margin0_20">
+            <div class="content">
+                <h3 class="block5_title text-center">Изготовление дудука — искусство,  доступное избранным мастерам</h3>
+                <br>
+                <div class="block5_text1 content2 text-center">
+                    Инструмент изготавливают величайшие мастера своего дела  Карен Мукаелян и Манвел Мнацаканян.
+                    Технология изготовления отточена веками и передаётся от учителя к ученику лично.
                 </div>
-            </div>
-        </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-xs-6 text-center ">
 
+                        <div>
+                            <img src="<?php bloginfo('template_url')?>/picture/master1.png" alt="master1">
+                        </div>
 
-        <br><br>
-        <div class="block6 sliderImg{{block6ActiveItem}}" >
-            <div class="margin0_20">
-                <div class="content" style="padding-left: 10%">
-                    <div class="mySlider posRelative">
-                        <div style="position: absolute">
-                            <h3 class="block6_title">
-                                Отзывы профессиональных музыкантов о нашем  инструменте
-                            </h3>
-                            <br><br><br>
-                            <div class="slider_toggle inlineBlock posRelative">
-                                <div class="sliderArrowLeft inlineBlock text-center cursor" ng-click="clickToRight(false)">
-                                    <img src="<?php bloginfo('template_url')?>/picture/caret-left.png" alt="caret-left">
-                                </div>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <div class="slider_number inlineBlock text-center"> {{block6ActiveItem}}/3 </div>
-                                <div class="sliderArrowRight inlineBlock text-center cursor" ng-click="clickToRight(true)">
-                                    <img src="<?php bloginfo('template_url')?>/picture/caret-right.png" alt="caret-right">
+                        <div class="master">
+                            <div class="master_text">
+                                <h4 class="masterName">Мастер Манвел  Мнацаканян</h4>
+                                <div class="aboutMaster">
+                                    Посвятил 40 лет жизни искусству дудука. В 1985 работал подмастерьем у мастера
+                                    Георгия Минасова, который  обучал его изготовлению дудука. Манвел изготавливает лучшие дудуки и трости для легендарных
+                                    армянских музыкантов: Георгия Минасова, Дживана Гаспаряна, Геворга Дабагяна.
                                 </div>
                             </div>
                         </div>
-                        <div class="blockImgs">
-                            <div class="sliderImg inlineBlock  active" ng-if="block6ActiveItem==1">
-                                <div style="margin-top: 400px">
-                                    <br><br>
-                                    <div class="block6_text1">
-                                        «На сегодняшний день Карен Мукаелян — лучший мастер по изготовлению дудуков:
-                                        звучных, эргономичных и долговечных. Его инструменты зарекомендовали себя на больших сценах,
-                                        в студиях звукозаписи и в руках большинства дудукистов мира»
-                                    </div>
-                                    <br>
-                                    <div class="block6_text2">
-                                        Дудукист Argishty
-                                    </div>
-                                    <br><br><br><br>
+
+                    </div>
+                    <div class="col-xs-6 text-center">
+                        <img src="<?php bloginfo('template_url')?>/picture/master2.png" alt="master2">
+
+                        <div class="master">
+                            <div class="master_text">
+                                <h4 class="masterName">Мастер Карен Мукаелян</h4>
+                                <div class="aboutMaster">
+                                    Занимается изготавливанием дудуков  более 25 лет.  После усовершенствований и поправок тембра, тональности и прочности,
+                                    дудуки Карена Мукаеляна являются одним изз самых профессиональных инструментов на рынке.
                                 </div>
                             </div>
-                            <div class="sliderImg inlineBlock " ng-if="block6ActiveItem==2">
-                                <div style="margin-top: 400px">
-                                    <br><br>
-                                    <div class="block6_text1">
-                                        «На сегодняшний день в Армении много мастеров по изготовлению дудука. Но только избранным доступно
-                                        сделать превосходный по звучанию инструмент. Такими мастерами являются Карен Мукаелян и Манвел Мнацаканян»
-                                    </div>
-                                    <br>
-                                    <div class="block6_text2">
-                                        Рафаэль Мкртчан профессиональный дудукист
-                                    </div>
-                                    <br><br><br><br>
-                                </div>
-                            </div>
-                            <div class="sliderImg inlineBlock " ng-if="block6ActiveItem==3">
-                                <div style="margin-top: 400px">
-                                    <br><br>
-                                    <div class="block6_text1">
-                                        «При изготовлении любого своего инструмента,  легендарный мастер Карен Мукаелян отдает частицу себя и вкладывает душу»
-                                    </div>
-                                    <br>
-                                    <div class="block6_text2">
-                                        Армен Ованнесян профессиональный дудукист
-                                    </div>
-                                    <br><br><br><br>
-                                </div>
-                            </div>
-                            <br>
                         </div>
                     </div>
                 </div>
+
+                <br>
+                <div class="text-center">
+                    <div class="searchDuduk text-center cursor inlineBlock">
+                        Подобрать инструмент
+                    </div>
+                </div>
+
             </div>
         </div>
+    </div>
 
-        <br><br>
-        <div class="block7 posRelative">
-            <img src="<?php bloginfo('template_url')?>/picture/block7_img.png"
-                 style="position: absolute; left: -100px; max-width: 1300px"
-                 alt="caret-left">
-            <div class="margin0_20">
-                <div class="content2">
-                    <div style="padding-top: 200px">
-                        <h3 class="block7_title">
-                            Играйте на профессиональном музыкальном инструменте
+    <br><br>
+    <div class="block6 sliderImg{{block6ActiveItem}}" >
+        <div class="margin0_20">
+            <div class="content" style="padding-left: 10%">
+                <div class="mySlider posRelative">
+                    <div style="position: absolute">
+                        <h3 class="block6_title">
+                            Отзывы профессиональных музыкантов о нашем  инструменте
                         </h3>
-                        <br>
-
-                        <div class="row">
-                            <div class="col-xs-8">
-                                <div class="block7_text1">
-                                    Дудук, сделанный нашими мастерами, используют именитые дудукисты:
-                                    Георгий Минасов, Дживан Гаспарян, Геворг Дабагян, Егише Манукян,
-                                    Педро Евстафия. Наш ис=нструмент полностью отвечает всем требованиям
-                                    легендарных музыкантов.
-                                </div>
+                        <br><br><br>
+                        <div class="slider_toggle inlineBlock posRelative">
+                            <div class="sliderArrowLeft inlineBlock text-center cursor" ng-click="clickToRight(false)">
+                                <img src="<?php bloginfo('template_url')?>/picture/caret-left.png" alt="caret-left">
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <div class="slider_number inlineBlock text-center"> {{block6ActiveItem}}/3 </div>
+                            <div class="sliderArrowRight inlineBlock text-center cursor" ng-click="clickToRight(true)">
+                                <img src="<?php bloginfo('template_url')?>/picture/caret-right.png" alt="caret-right">
                             </div>
                         </div>
-                        <br>
-                        <div class="row">
-                            <div class="col-xs-7">
-                                <div class="block7_text2">
-                                    Дудук производится только вручную и только по специальной
-                                    технологии, соблюдая все секреты производства.
-                                </div>
-                                <div class="block7_text3">
-                                    Поэтому мы изготавливаем ограниченное количество дудуков в месяц.
-                                </div>
-                            </div>
-                            <div class="col-xs-5">
-                                <div class="searchDuduk text-center cursor inlineBlock">
-                                    Зарезервировать инструмент
-                                </div>
-                            </div>
-
-                        </div>
-
                     </div>
-
+                    <div class="blockImgs">
+                        <div class="sliderImg inlineBlock  active" ng-if="block6ActiveItem==1">
+                            <div style="margin-top: 400px">
+                                <br><br>
+                                <div class="block6_text1">
+                                    «На сегодняшний день Карен Мукаелян — лучший мастер по изготовлению дудуков:
+                                    звучных, эргономичных и долговечных. Его инструменты зарекомендовали себя на больших сценах,
+                                    в студиях звукозаписи и в руках большинства дудукистов мира»
+                                </div>
+                                <br>
+                                <div class="block6_text2">
+                                    Дудукист Argishty
+                                </div>
+                                <br><br><br><br>
+                            </div>
+                        </div>
+                        <div class="sliderImg inlineBlock " ng-if="block6ActiveItem==2">
+                            <div style="margin-top: 400px">
+                                <br><br>
+                                <div class="block6_text1">
+                                    «На сегодняшний день в Армении много мастеров по изготовлению дудука. Но только избранным доступно
+                                    сделать превосходный по звучанию инструмент. Такими мастерами являются Карен Мукаелян и Манвел Мнацаканян»
+                                </div>
+                                <br>
+                                <div class="block6_text2">
+                                    Рафаэль Мкртчан профессиональный дудукист
+                                </div>
+                                <br><br><br><br>
+                            </div>
+                        </div>
+                        <div class="sliderImg inlineBlock " ng-if="block6ActiveItem==3">
+                            <div style="margin-top: 400px">
+                                <br><br>
+                                <div class="block6_text1">
+                                    «При изготовлении любого своего инструмента,  легендарный мастер Карен Мукаелян отдает частицу себя и вкладывает душу»
+                                </div>
+                                <br>
+                                <div class="block6_text2">
+                                    Армен Ованнесян профессиональный дудукист
+                                </div>
+                                <br><br><br><br>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
     <br><br>
+    <div class="block7 posRelative">
+        <img src="<?php bloginfo('template_url')?>/picture/block7_img.png"
+             style="position: absolute; left: -100px; max-width: 1300px"
+             alt="caret-left">
+        <div class="margin0_20">
+            <div class="content2">
+                <div style="padding-top: 200px">
+                    <h3 class="block7_title">
+                        Играйте на профессиональном музыкальном инструменте
+                    </h3>
+                    <br>
+
+                    <div class="row">
+                        <div class="col-xs-8">
+                            <div class="block7_text1">
+                                Дудук, сделанный нашими мастерами, используют именитые дудукисты:
+                                Георгий Минасов, Дживан Гаспарян, Геворг Дабагян, Егише Манукян,
+                                Педро Евстафия. Наш инструмент полностью отвечает всем требованиям
+                                легендарных музыкантов.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-7">
+                            <div class="block7_text2">
+                                Дудук производится только вручную и только по специальной
+                                технологии, соблюдая все секреты производства.
+                            </div>
+                            <div class="block7_text3">
+                                Поэтому мы изготавливаем ограниченное количество дудуков в месяц.
+                            </div>
+                        </div>
+                        <div class="col-xs-5">
+                            <div class="searchDuduk text-center cursor inlineBlock">
+                                Зарезервировать инструмент
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br>
+    <div class="block8">
+        <div class="margin0_20">
+            <div class="content2">
+                <div class="row">
+                    <div class="col-xs-5"></div>
+                    <div class="col-xs-7">
+                        <h3 class="block8_title">
+                            Посмотрите  видеообзор дудука
+                        </h3>
+                        <br>
+                        <div class="block8_text1">
+                            Опытный музыкант и преподаватель школы дудука, Армен Ованнисян,
+                            рассказывает и показывает наш инструмент
+                        </div>
+                        <br><br>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <br><br>
+
 </div>
