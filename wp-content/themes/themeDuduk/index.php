@@ -394,6 +394,104 @@
     </div>
 
 
+    <div class="block9 posRelative">
+        <div class="margin0_20">
+            <div class="content2">
+                <br><br>
+                <h3 class="block9_title text-center">
+                    Выберите свой профессиональный  армянский дудук
+                </h3>
+                <br>
+
+                <div class="block9_tabs text-center">
+                    <ul class="block9_tabs_ul list-unstyled">
+                        <li class="inlineBlock block9_tabs_item cursor"
+                            ng-click="clickBlock9TabItem(1)"
+                            ng-class="{'active': block9ActiveItem==1}">
+                            IN A
+                            <div>(строй Ля)</div>
+                        </li>
+                        <li class="inlineBlock block9_tabs_item cursor"
+                            ng-click="clickBlock9TabItem(2)"
+                            ng-class="{'active': block9ActiveItem==2}">
+                            IN G
+                            <div>(строй Соль)</div>
+                        </li>
+                        <li class="inlineBlock block9_tabs_item cursor"
+                            ng-click="clickBlock9TabItem(3)"
+                            ng-class="{'active': block9ActiveItem==3}">
+                            IN B
+                            <div>(строй Си бемоль)</div>
+                        </li>
+                        <li class="inlineBlock block9_tabs_item cursor"
+                            ng-click="clickBlock9TabItem(4)"
+                            ng-class="{'active': block9ActiveItem==4}">
+                            IN H
+                            <div>(строй Си)</div>
+                        </li>
+                        <li class="inlineBlock block9_tabs_item cursor"
+                            ng-click="clickBlock9TabItem(5)"
+                            ng-class="{'active': block9ActiveItem==5}">
+                            IN C
+                            <div>(строй До)</div>
+                        </li>
+                        <li class="inlineBlock block9_tabs_item cursor"
+                            ng-click="clickBlock9TabItem(6)"
+                            ng-class="{'active': block9ActiveItem==6}">
+                            IN D
+                            <div>(строй Ре)</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block9_tabs_content">
+                    <br>
+                    <div ng-if="block9ActiveItem==1">
+                        <div class="block9_slider posRelative">
+                            <div class="blockImgs">
+                                <div class="sliderImg inlineBlock text-center active">
+                                    <img src="<?php bloginfo('template_url')?>/picture/block9_slider1.png" class="block9_slider_img" alt="block9_slider1">
+                                </div>
+                                <div class="sliderImg inlineBlock text-center">
+                                    <img src="<?php bloginfo('template_url')?>/picture/block9_slider1.png" class="block9_slider_img" alt="block9_slider1">
+                                </div>
+                                <div class="sliderImg inlineBlock text-center">
+                                    <img src="<?php bloginfo('template_url')?>/picture/block9_slider1.png" class="block9_slider_img" alt="block9_slider1">
+                                </div>
+                            </div>
+
+                            <!--Стрелки-->
+                            <div class="sliderArrowRight inlineBlock text-center cursor arrowRight" ng-click="block9_toNext(true)">
+                                <img src="<?php bloginfo('template_url')?>/picture/caret-right.png" alt="caret-right">
+                            </div>
+                            <div class="sliderArrowLeft inlineBlock text-center cursor arrowLeft" ng-click="block9_toNext(false)">
+                                <img src="<?php bloginfo('template_url')?>/picture/caret-left.png" alt="caret-left">
+                            </div>
+                        </div>
+                    </div>
+                    <div ng-if="block9ActiveItem==2">
+                        Вкладка 2
+                    </div>
+                    <div ng-if="block9ActiveItem==3">
+                        Вкладка 3
+                    </div>
+                    <div ng-if="block9ActiveItem==4">
+                        Вкладка 4
+                    </div>
+                    <div ng-if="block9ActiveItem==5">
+                        Вкладка 5
+                    </div>
+                    <div ng-if="block9ActiveItem==6">
+                        Вкладка 6
+                    </div>
+                    <br>
+
+                </div>
+                <br>
+            </div>
+        </div>
+
+    </div>
+
     <br><br>
 
 </div>

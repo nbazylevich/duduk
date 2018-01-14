@@ -357,7 +357,7 @@ header{
 }
 .block7{
 }
-.block7_title, .block8_title{
+.block7_title, .block8_title, .block9_title{
 	font-family: RalewayBold;
 	font-size: 55px;
 }
@@ -379,13 +379,50 @@ header{
 .block8_text1{
 	font-size: 28px;
 }
-
-.mySlider{
-	/*width: 400px;*/
-	/*height: 250px;*/
-	/*border: 1px solid gray;*/
-	/*margin: auto;*/
+.block9{
+	background-color: #4c361d;
 }
+.block9_title{
+	color: white;
+}
+.block9_tabs_ul{
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+}
+.block9_tabs_item{
+	background-color: #745a3b;
+	font-family: RalewayBold;
+	color: #ffffff;
+	flex-grow: 1;
+	height: 68px;
+	padding: 12px;
+}
+.block9_tabs_item.active,
+.block9_tabs_item:hover{
+	background-color: #bba284;
+}
+.block9_tabs_content{
+	background-color: #ffffff;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.block9_slider_img{
+	width: 80%;
+}
+.block9_tabs_content .sliderArrowRight,
+.block9_tabs_content .sliderArrowLeft{
+	position: absolute;
+	top: 40%;
+	padding-top: 15px;
+}
+.block9_tabs_content .sliderArrowRight{
+	right: 20px;
+}
+.block9_tabs_content .sliderArrowLeft{
+	left: 20px;
+}
+
 .blockImgs{
 	white-space: nowrap;
 	overflow: hidden;

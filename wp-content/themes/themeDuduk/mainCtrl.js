@@ -67,6 +67,38 @@ angular.module('myApp', [])
 
         };
 
+
+        $scope.block9ActiveItem = 1;
+        $scope.clickBlock9TabItem = function(num){
+            $scope.block9ActiveItem = num;
+        };
+        $scope.block9_toNext = function(right){
+            var items = $(".block9_slider").find(".sliderImg");
+            var blockImgs = $(".block9_slider").find(".blockImgs");
+            for(var i = 0; i < items.length; i++){
+                if(right){
+                    if(items[i+1]){
+                        if($(items[i]).hasClass("active")){
+                            $(items[i]).removeClass("active");
+                            $(items[i+1]).addClass("active");
+                            $(blockImgs).animate({scrollLeft: (i+1)*($(items[i]).width())}, 1000);
+                            break;
+                        }
+                    }
+                } else {
+                    if(items[i-1]){
+                        if($(items[i]).hasClass("active")){
+                            $(items[i]).removeClass("active");
+                            $(items[i-1]).addClass("active");
+                            $(blockImgs).animate({scrollLeft: (i-1)*($(items[i]).width())}, 1000);
+                            break;
+                        }
+                    }
+                }
+
+            }
+        };
+
         $scope.enLang = {
             'Delivery': 'EN:Доставка',
             'Payment': 'EN:Оплата',
