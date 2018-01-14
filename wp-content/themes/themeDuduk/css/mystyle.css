@@ -328,15 +328,17 @@ header{
 .block6_text2{
 	font-family: RalewayBold;
 	font-size: 26px;
+	max-width: 400px;
 }
 .sliderImg1{
-	background: url(http://duduk/wp-content/themes/themeDuduk/picture/block6_slider1.png) 100% 100% no-repeat;
+	background: #0b0c0c url(http://duduk/wp-content/themes/themeDuduk/picture/block6_slider1.png) 100% 100% no-repeat;
+	min-height: 750px;
 }
 .sliderImg2{
-	background: url(http://duduk/wp-content/themes/themeDuduk/picture/block6_slider2.png) 100% 0 no-repeat;
+	background: #0b0c0c url(http://duduk/wp-content/themes/themeDuduk/picture/block6_slider2.png) 100% 0 no-repeat;
 }
 .sliderImg3{
-	background: url(http://duduk/wp-content/themes/themeDuduk/picture/block6_slider3.png) 100% 0 no-repeat;
+	background: #0b0c0c url(http://duduk/wp-content/themes/themeDuduk/picture/block6_slider3.png) 100% 0 no-repeat;
 }
 .slider_toggle{
 	font-family: RalewayRegular;

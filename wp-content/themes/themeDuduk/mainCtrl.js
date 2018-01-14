@@ -52,6 +52,21 @@ angular.module('myApp', [])
             }
         };
 
+        $scope.block6ActiveItem = 1;
+
+        $scope.clickToRight = function(right){
+           if(right){
+               if($scope.block6ActiveItem < 3){
+                   $scope.block6ActiveItem++;
+               }
+           } else {
+               if(($scope.block6ActiveItem - 1) > 0){
+                   $scope.block6ActiveItem--;
+               }
+           }
+
+        };
+
         $scope.enLang = {
             'Delivery': 'EN:Доставка',
             'Payment': 'EN:Оплата',
