@@ -320,6 +320,54 @@
                 </div>
             </div>
         </div>
+
+        <br><br>
+        <div class="block7 posRelative">
+            <img src="<?php bloginfo('template_url')?>/picture/block7_img.png"
+                 style="position: absolute; left: -100px; max-width: 1300px"
+                 alt="caret-left">
+            <div class="margin0_20">
+                <div class="content2">
+                    <div style="padding-top: 200px">
+                        <h3 class="block7_title">
+                            Играйте на профессиональном музыкальном инструменте
+                        </h3>
+                        <br>
+
+                        <div class="row">
+                            <div class="col-xs-8">
+                                <div class="block7_text1">
+                                    Дудук, сделанный нашими мастерами, используют именитые дудукисты:
+                                    Георгий Минасов, Дживан Гаспарян, Геворг Дабагян, Егише Манукян,
+                                    Педро Евстафия. Наш ис=нструмент полностью отвечает всем требованиям
+                                    легендарных музыкантов.
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-xs-7">
+                                <div class="block7_text2">
+                                    Дудук производится только вручную и только по специальной
+                                    технологии, соблюдая все секреты производства.
+                                </div>
+                                <div class="block7_text3">
+                                    Поэтому мы изготавливаем ограниченное количество дудуков в месяц.
+                                </div>
+                            </div>
+                            <div class="col-xs-5">
+                                <div class="searchDuduk text-center cursor inlineBlock">
+                                    Зарезервировать инструмент
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
     <br><br>
 </div>

@@ -88,7 +88,7 @@ html, body{
 /*Шрифты - end*/
 
 body{
-
+	color: #020202;
 }
 .content{
 	max-width: 1500px;
@@ -186,9 +186,10 @@ header{
 	font-family: RalewayExtraBold;
 	font-size: 15px;
 	text-transform: uppercase;
-	width: 250px;
+	min-width: 250px;
 	height: 80px;
 	line-height: 80px;
+	padding: 0 20px;
 }
 .showVideo{
 	border: 1px solid #ff8502;
@@ -353,6 +354,20 @@ header{
 	left: 25px;
 	width: 130px;
 	padding-top: 3px;
+}
+.block7{
+}
+.block7_title{
+	font-family: RalewayBold;
+	font-size: 55px;
+}
+.block7_text1, .block7_text2{
+	font-family: RalewayMedium;
+	font-size: 20px;
+}
+.block7_text3{
+	font-family: RalewayBold;
+	font-size: 20px;
 }
 
 .mySlider{
