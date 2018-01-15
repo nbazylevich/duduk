@@ -403,89 +403,97 @@
                 </h3>
                 <br>
 
-                <div class="block9_tabs text-center">
-                    <ul class="block9_tabs_ul list-unstyled">
-                        <li class="inlineBlock block9_tabs_item cursor"
-                            ng-click="clickBlock9TabItem(1)"
-                            ng-class="{'active': block9ActiveItem==1}">
-                            in A
-                            <div>(Ля)</div>
-                        </li>
-                        <li class="inlineBlock block9_tabs_item cursor"
-                            ng-click="clickBlock9TabItem(2)"
-                            ng-class="{'active': block9ActiveItem==2}">
-                            in B
-                            <div>(Си)</div>
-                        </li>
-                        <li class="inlineBlock block9_tabs_item cursor"
-                            ng-click="clickBlock9TabItem(3)"
-                            ng-class="{'active': block9ActiveItem==3}">
-                            in Bb
-                            <div>(Си-бемоль)</div>
-                        </li>
-                        <li class="inlineBlock block9_tabs_item cursor"
-                            ng-click="clickBlock9TabItem(4)"
-                            ng-class="{'active': block9ActiveItem==4}">
-                            in C
-                            <div>(До)</div>
-                        </li>
-                        <li class="inlineBlock block9_tabs_item cursor"
-                            ng-click="clickBlock9TabItem(5)"
-                            ng-class="{'active': block9ActiveItem==5}">
-                            in D
-                            <div>(Ре)</div>
-                        </li>
-                        <li class="inlineBlock block9_tabs_item cursor"
-                            ng-click="clickBlock9TabItem(6)"
-                            ng-class="{'active': block9ActiveItem==6}">
-                            in G
-                            <div>(Соль)</div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="block9_tabs_content">
-                    <br>
-                    <div ng-if="block9ActiveItem==1">
-                        <div class="block9_slider posRelative">
-                            <div class="blockImgs">
-                                <div class="sliderImg inlineBlock text-center active">
-                                    <img src="<?php bloginfo('template_url')?>/picture/block9_slider1.png" class="block9_slider_img" alt="block9_slider1">
+                <div class="block9_content1">
+                    <div class="block9_tabs text-center">
+                        <ul class="block9_tabs_ul list-unstyled">
+                            <li class="inlineBlock block9_tabs_item cursor"
+                                ng-click="clickBlock9TabItem(1)"
+                                ng-class="{'active': block9ActiveItem==1}">
+                                in A
+                                <div>(Ля)</div>
+                            </li>
+                            <li class="inlineBlock block9_tabs_item cursor"
+                                ng-click="clickBlock9TabItem(2)"
+                                ng-class="{'active': block9ActiveItem==2}">
+                                in B
+                                <div>(Си)</div>
+                            </li>
+                            <li class="inlineBlock block9_tabs_item cursor"
+                                ng-click="clickBlock9TabItem(3)"
+                                ng-class="{'active': block9ActiveItem==3}">
+                                in Bb
+                                <div>(Си-бемоль)</div>
+                            </li>
+                            <li class="inlineBlock block9_tabs_item cursor"
+                                ng-click="clickBlock9TabItem(4)"
+                                ng-class="{'active': block9ActiveItem==4}">
+                                in C
+                                <div>(До)</div>
+                            </li>
+                            <li class="inlineBlock block9_tabs_item cursor"
+                                ng-click="clickBlock9TabItem(5)"
+                                ng-class="{'active': block9ActiveItem==5}">
+                                in D
+                                <div>(Ре)</div>
+                            </li>
+                            <li class="inlineBlock block9_tabs_item cursor"
+                                ng-click="clickBlock9TabItem(6)"
+                                ng-class="{'active': block9ActiveItem==6}">
+                                in G
+                                <div>(Соль)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="block9_tabs_content">
+                        <br>
+                        <div ng-if="block9ActiveItem==1">
+                            <div class="block9_slider posRelative">
+                                <div class="blockImgs">
+                                    <div class="sliderImg inlineBlock text-center active">
+                                        <img src="<?php bloginfo('template_url')?>/picture/block9_slider1.png" class="block9_slider_img" alt="block9_slider1">
+                                    </div>
+                                    <div class="sliderImg inlineBlock text-center">
+                                        <img src="<?php bloginfo('template_url')?>/picture/block9_slider1.png" class="block9_slider_img" alt="block9_slider1">
+                                    </div>
+                                    <div class="sliderImg inlineBlock text-center">
+                                        <img src="<?php bloginfo('template_url')?>/picture/block9_slider1.png" class="block9_slider_img" alt="block9_slider1">
+                                    </div>
                                 </div>
-                                <div class="sliderImg inlineBlock text-center">
-                                    <img src="<?php bloginfo('template_url')?>/picture/block9_slider1.png" class="block9_slider_img" alt="block9_slider1">
-                                </div>
-                                <div class="sliderImg inlineBlock text-center">
-                                    <img src="<?php bloginfo('template_url')?>/picture/block9_slider1.png" class="block9_slider_img" alt="block9_slider1">
-                                </div>
-                            </div>
 
-                            <!--Стрелки-->
-                            <div class="sliderArrowRight inlineBlock text-center cursor arrowRight" ng-click="block9_toNext(true)">
-                                <img src="<?php bloginfo('template_url')?>/picture/caret-right.png" alt="caret-right">
-                            </div>
-                            <div class="sliderArrowLeft inlineBlock text-center cursor arrowLeft" ng-click="block9_toNext(false)">
-                                <img src="<?php bloginfo('template_url')?>/picture/caret-left.png" alt="caret-left">
+                                <!--Стрелки-->
+                                <div class="sliderArrowRight inlineBlock text-center cursor arrowRight" ng-click="block9_toNext(true)">
+                                    <img src="<?php bloginfo('template_url')?>/picture/caret-right.png" alt="caret-right">
+                                </div>
+                                <div class="sliderArrowLeft inlineBlock text-center cursor arrowLeft" ng-click="block9_toNext(false)">
+                                    <img src="<?php bloginfo('template_url')?>/picture/caret-left.png" alt="caret-left">
+                                </div>
                             </div>
                         </div>
+                        <div ng-if="block9ActiveItem==2">
+                            Вкладка 2
+                        </div>
+                        <div ng-if="block9ActiveItem==3">
+                            Вкладка 3
+                        </div>
+                        <div ng-if="block9ActiveItem==4">
+                            Вкладка 4
+                        </div>
+                        <div ng-if="block9ActiveItem==5">
+                            Вкладка 5
+                        </div>
+                        <div ng-if="block9ActiveItem==6">
+                            Вкладка 6
+                        </div>
                     </div>
-                    <div ng-if="block9ActiveItem==2">
-                        Вкладка 2
-                    </div>
-                    <div ng-if="block9ActiveItem==3">
-                        Вкладка 3
-                    </div>
-                    <div ng-if="block9ActiveItem==4">
-                        Вкладка 4
-                    </div>
-                    <div ng-if="block9ActiveItem==5">
-                        Вкладка 5
-                    </div>
-                    <div ng-if="block9ActiveItem==6">
-                        Вкладка 6
-                    </div>
-                    <br>
 
+                    <div class="block9_content2">
+                        <div class="row">
+                            <div class="col-xs-7"></div>
+                            <div class="col-xs-5"></div>
+                        </div>
+                    </div>
                 </div>
+
                 <br>
             </div>
         </div>

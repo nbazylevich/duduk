@@ -404,8 +404,8 @@ header{
 }
 .block9_tabs_content{
 	background-color: #ffffff;
-	border-bottom-right-radius: 15px;
-	border-bottom-left-radius: 15px;
+	min-height: 250px;
+	border-bottom: 1px solid #4d371f;
 }
 .block9_slider_img{
 	width: 80%;
@@ -421,6 +421,11 @@ header{
 }
 .block9_tabs_content .sliderArrowLeft{
 	left: 20px;
+}
+.block9_content2{
+	background-color: #ffffff;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
 }
 
 .blockImgs{
