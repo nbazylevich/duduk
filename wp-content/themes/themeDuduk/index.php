@@ -408,38 +408,38 @@
                         <li class="inlineBlock block9_tabs_item cursor"
                             ng-click="clickBlock9TabItem(1)"
                             ng-class="{'active': block9ActiveItem==1}">
-                            IN A
-                            <div>(строй Ля)</div>
+                            in A
+                            <div>(Ля)</div>
                         </li>
                         <li class="inlineBlock block9_tabs_item cursor"
                             ng-click="clickBlock9TabItem(2)"
                             ng-class="{'active': block9ActiveItem==2}">
-                            IN G
-                            <div>(строй Соль)</div>
+                            in B
+                            <div>(Си)</div>
                         </li>
                         <li class="inlineBlock block9_tabs_item cursor"
                             ng-click="clickBlock9TabItem(3)"
                             ng-class="{'active': block9ActiveItem==3}">
-                            IN B
-                            <div>(строй Си бемоль)</div>
+                            in Bb
+                            <div>(Си-бемоль)</div>
                         </li>
                         <li class="inlineBlock block9_tabs_item cursor"
                             ng-click="clickBlock9TabItem(4)"
                             ng-class="{'active': block9ActiveItem==4}">
-                            IN H
-                            <div>(строй Си)</div>
+                            in C
+                            <div>(До)</div>
                         </li>
                         <li class="inlineBlock block9_tabs_item cursor"
                             ng-click="clickBlock9TabItem(5)"
                             ng-class="{'active': block9ActiveItem==5}">
-                            IN C
-                            <div>(строй До)</div>
+                            in D
+                            <div>(Ре)</div>
                         </li>
                         <li class="inlineBlock block9_tabs_item cursor"
                             ng-click="clickBlock9TabItem(6)"
                             ng-class="{'active': block9ActiveItem==6}">
-                            IN D
-                            <div>(строй Ре)</div>
+                            in G
+                            <div>(Соль)</div>
                         </li>
                     </ul>
                 </div>
