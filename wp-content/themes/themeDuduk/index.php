@@ -446,13 +446,13 @@
 
 <div class="block9 posRelative">
     <div class="margin0_20">
-        <div class="content2">
-            <br><br>
+        <div class="content">
+            <br><br><br><br>
 
-            <h3 class="block9_title text-center">
+            <h3 class="block9_title text-center content2">
                 Выберите свой профессиональный армянский дудук
             </h3>
-            <br>
+            <br><br>
 
             <div class="block9_content1">
                 <div class="block9_tabs text-center">
@@ -514,6 +514,7 @@
                                          class="block9_slider_img" alt="block9_slider1">
                                 </div>
                             </div>
+                            <br>
 
                             <!--Стрелки-->
                             <div class="sliderArrowRight inlineBlock text-center cursor arrowRight"
@@ -545,9 +546,9 @@
 
                 <div class="block9_content2">
                     <div class="row">
-                        <div class="col-xs-7">
-                            <div class="block9_imgs inlineBlock">
-                                <div class="inlineBlock">
+                        <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
+                            <div class="block9_imgs">
+                                <div class="inlineBlock" style="width: 50%;">
                                     <img src="<?php bloginfo('template_url') ?>/picture/block9_img1.png"
                                          class="block9_img" alt="duduk_img">
                                     <img src="<?php bloginfo('template_url') ?>/picture/block9_img2.png"
@@ -557,12 +558,17 @@
                                     <img src="<?php bloginfo('template_url') ?>/picture/block9_img4.png"
                                          class="block9_img" alt="duduk_img">
                                 </div>
-                                <div class="inlineBlock">
+                                <div class="inlineBlock" style="vertical-align: bottom; width: 50%;">
                                     <img src="<?php bloginfo('template_url') ?>/picture/block9_img5.png"
                                          class="block9_img5" alt="duduk_img">
                                 </div>
                             </div>
-                            <div class="row">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="row text-center ralewayMedium">
                                 <div class="col-xs-3">
                                     <div>
                                         Изготовлен из абрикосового дерева
@@ -585,34 +591,45 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-5">
-                            <div>
-                                <span class="ralewayBold">Цвет</span>: Темно-коричневый
+                        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+                            <br>
+                            <div class="dudukOptions">
+                                <div>
+                                    <div class="lightBrownSquare inlineBlock"></div>
+                                    &nbsp;
+                                    <div class="darkBrownSquare inlineBlock"></div>
+                                </div>
+                                <div>
+                                    <span class="ralewayBold">Цвет</span>: Темно-коричневый
+                                </div>
+                                <div>
+                                    <span class="ralewayBold">Тональность</span>: Ля (in A)
+                                </div>
+                                <div>
+                                    <span class="ralewayBold">Диапазон</span>: от F# малой октавы, до Н первой октавы
+                                </div>
+                                <div>
+                                    <span class="ralewayBold">Длина</span>: 36 см
+                                </div>
+                                <div>
+                                    <span class="ralewayBold">Комплектация</span>: дудук, 2 трости, чехол,
+                                    коробочка для трости, паспорт инструмента, гарантия
+                                </div>
                             </div>
-                            <div>
-                                <span class="ralewayBold">Тональность</span>: Ля (in A)
-                            </div>
-                            <div>
-                                <span class="ralewayBold">Диапазон</span>: от F# малой октавы, до Н первой октавы
-                            </div>
-                            <div>
-                                <span class="ralewayBold">Длина</span>: 36 см
-                            </div>
-                            <div>
-                                <span class="ralewayBold">Комплектация</span>: дудук, 2 трости, чехол, коробочка для
-                                трости, п
-                            </div>
-                            <div>
+
+                            <div class="dudukCost">
                                 Стоимость: 18 000 руб.
                             </div>
-                            <div>
-                                Стоимость: 18 000 руб.
+                            <div class="">
+                                <div class="searchDuduk cursor inlineBlock">
+                                    Заказать дудук
+                                </div>
                             </div>
-                            <div class="searchDuduk text-center cursor inlineBlock">
-                                Заказать дудук
-                            </div>
+
                         </div>
+                        <div class="col-xs-1 col-md-1"></div>
                     </div>
+                    <br>
                 </div>
             </div>
 

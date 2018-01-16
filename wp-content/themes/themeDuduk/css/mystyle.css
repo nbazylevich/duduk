@@ -66,6 +66,10 @@ html, body{
 	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/Open_Sans/OpenSans-Light.ttf);
 }
 @font-face {
+	font-family: OpenSansBold;
+	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+@font-face {
 	font-family: RalewayRegular;
 	src: url(http://duduk/wp-content/themes/themeDuduk/fonts/Raleway/Raleway-Regular.ttf);
 }
@@ -88,6 +92,9 @@ html, body{
 /*Шрифты - end*/
 .ralewayBold{
     font-family: RalewayBold;
+}
+.ralewayMedium{
+    font-family: RalewayMedium;
 }
 
 body{
@@ -434,10 +441,30 @@ header{
     font-size: 0;
 }
 .block9_img{
-    max-width: 200px;
+    width: 50%;
 }
 .block9_img5{
     width: 100%;
+}
+.lightBrownSquare,
+.darkBrownSquare{
+	height: 20px;
+	width: 20px;
+}
+.lightBrownSquare{
+	background-color: #a4630b;
+}
+.darkBrownSquare{
+	background-color: #5e3e14;
+}
+.dudukOptions{
+	font-size: 16px;
+	line-height: 35px;
+}
+.dudukCost{
+	font-family: OpenSansBold;
+	font-size: 20px;
+	margin: 15px 0 10px 0;
 }
 
 .blockImgs{
