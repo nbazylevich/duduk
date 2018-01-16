@@ -621,7 +621,7 @@
                                 Стоимость: 18 000 руб.
                             </div>
                             <div class="">
-                                <div class="searchDuduk cursor inlineBlock">
+                                <div class="searchDuduk cursor text-center inlineBlock">
                                     Заказать дудук
                                 </div>
                             </div>
@@ -630,6 +630,32 @@
                         <div class="col-xs-1 col-md-1"></div>
                     </div>
                     <br>
+                </div>
+                <div class="block9_content3 content1">
+                    <br><br><br><br>
+
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <h3 class="block9_title1 content2 ralewayBold">
+                                Если у вас уже есть дудук,  вы можете отдельно  заказать новую трость
+                            </h3>
+                            <br>
+                            <br>
+                            <div class="block9_text1">
+                                Трость изготовлена из Карабахского тростника, одного из лучших
+                                сортов. Имеет три состовляющие: сама трость, регулятор и колпачок.
+                                Все трости мастера имеют бархатное звучание.
+                                <br><br>
+                                Боковые части каждой трости проклеены специальной кожей(Шевро),
+                                что дает им возможность не трескаться и долго служить.
+                            </div>
+                        </div>
+                        <div class="col-xs-6 text-center">
+                            <img src="<?php bloginfo('template_url') ?>/picture/block9_img6.png" alt="duduk">
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
 

@@ -104,6 +104,10 @@ body{
 	max-width: 1500px;
 	margin: auto;
 }
+.content1{
+	max-width: 1200px;
+	margin: auto;
+}
 .content2{
 	max-width: 1000px;
 	margin: auto;
@@ -465,6 +469,16 @@ header{
 	font-family: OpenSansBold;
 	font-size: 20px;
 	margin: 15px 0 10px 0;
+}
+.block9_content3{
+	color: white;
+}
+.block9_title1{
+	font-size: 40px;
+}
+.block9_text1{
+	font-family: RalewayMedium;
+	font-size: 18px;
 }
 
 .blockImgs{
