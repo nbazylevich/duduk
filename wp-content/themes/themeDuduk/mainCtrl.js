@@ -99,6 +99,10 @@ angular.module('myApp', [])
             }
         };
 
+        $scope.showDudukPresent = function(){
+            $('#formDudukPresent').modal('show');
+        };
+
         $scope.enLang = {
             'Delivery': 'EN:Доставка',
             'Payment': 'EN:Оплата',

@@ -470,7 +470,7 @@ header{
 	font-size: 20px;
 	margin: 15px 0 10px 0;
 }
-.block9_content3{
+.block9_content3, .block9_content4{
 	color: white;
 }
 .block9_title1{
@@ -490,7 +490,41 @@ header{
 	font-family: OpenSansBold;
 	font-size: 20px;
 }
+.presentDuduk{
+	max-width: 1170px;
+	border-radius: 20px;
+	margin: auto;
+	overflow: hidden;
+}
+.presentDuduk_img{
+	width: 100%;
+}
+.openPresent{
+	position: absolute;
+	bottom: 17%;
+	left:43%;
+	width: 135px;
+	height: 135px;
+	line-height: 135px;
+	background-color: white;
+	border-radius: 70px;
+	text-transform: uppercase;
+	font-family: RalewayExtraBold;
+	font-size: 15px;
+	color: #594946;
+}
 
+#formDudukPresent{
+
+}
+.slider_toggle_modalform{
+	position: absolute;
+	bottom: 10px;
+	left: 42%;
+}
+.slider_toggle_modalform .slider_number{
+	background-color: #f1dfc9;
+}
 .blockImgs{
 	white-space: nowrap;
 	overflow: hidden;

@@ -631,9 +631,9 @@
                     </div>
                     <br>
                 </div>
-                <div class="block9_content3 content1">
-                    <br><br><br><br>
 
+                <br><br><br><br>
+                <div class="block9_content3 content1">
                     <div class="row">
                         <div class="col-xs-6">
                             <h3 class="block9_title1 content2 ralewayBold">
@@ -663,9 +663,26 @@
                         </div>
                         <div class="col-xs-6 text-center">
                             <img src="<?php bloginfo('template_url') ?>/picture/block9_img6.png" alt="duduk">
-
                         </div>
                     </div>
+                </div>
+
+                <br><br><br><br>
+                <div class="block9_content4">
+                    <h3 class="block9_title1 content2 text-center ralewayBold">
+                        Ваш инструмент бережно хранится  в надежной
+                        и красивой подарочной упаковке
+                    </h3>
+                    <br>
+                    <div class="presentDuduk posRelative">
+                        <img src="<?php bloginfo('template_url') ?>/picture/block9_img7.png"
+                             class="presentDuduk_img" alt="duduk">
+                        <div class="openPresent text-center cursor"
+                            ng-click="showDudukPresent()">
+                            Открыть
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
@@ -679,3 +696,33 @@
 <br><br>
 
 </div>
+
+<!--Форма дудука в подарочной упаковке-->
+<div id="formDudukPresent" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document" style="width: 70%">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+            <div class="modal-body">
+                <div class="presentDuduk posRelative">
+                    <img src="<?php bloginfo('template_url') ?>/picture/block9_img8.jpg"
+                         class="presentDuduk_img" alt="duduk">
+                    <div class="slider_toggle_modalform">
+                        <div class="slider_toggle inlineBlock posRelative">
+                            <div class="sliderArrowLeft inlineBlock text-center cursor" ng-click="clickToRight(false)">
+                                <img src="<?php bloginfo('template_url') ?>/picture/caret-left.png" alt="caret-left">
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <div class="slider_number inlineBlock text-center"> {{block6ActiveItem}}/3</div>
+                            <div class="sliderArrowRight inlineBlock text-center cursor" ng-click="clickToRight(true)">
+                                <img src="<?php bloginfo('template_url') ?>/picture/caret-right.png" alt="caret-right">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
