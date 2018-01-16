@@ -649,6 +649,17 @@
                                 Боковые части каждой трости проклеены специальной кожей(Шевро),
                                 что дает им возможность не трескаться и долго служить.
                             </div>
+                            <br>
+                            <br>
+                            <div class="row text-center">
+                                <div class="col-xs-6 orderCane">
+                                    Заказать трость
+                                </div>
+                                <div class="col-xs-6 caneCost">
+                                    Стоимость 1 шт.:
+                                    <br>3 000 руб.
+                                </div>
+                            </div>
                         </div>
                         <div class="col-xs-6 text-center">
                             <img src="<?php bloginfo('template_url') ?>/picture/block9_img6.png" alt="duduk">

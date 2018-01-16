@@ -480,6 +480,16 @@ header{
 	font-family: RalewayMedium;
 	font-size: 18px;
 }
+.orderCane{
+	font-family: RalewayExtraBold;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #d5b593;
+}
+.caneCost{
+	font-family: OpenSansBold;
+	font-size: 20px;
+}
 
 .blockImgs{
 	white-space: nowrap;
