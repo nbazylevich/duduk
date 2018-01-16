@@ -488,8 +488,67 @@
 
                     <div class="block9_content2">
                         <div class="row">
-                            <div class="col-xs-7"></div>
-                            <div class="col-xs-5"></div>
+                                 <div class="col-xs-7">
+                                                          <div class="block9_imgs inlineBlock">
+                                                              <div class="inlineBlock">
+                                                                  <img src="<?php bloginfo('template_url')?>/picture/block9_img1.png" class="block9_img" alt="duduk_img">
+                                                                  <img src="<?php bloginfo('template_url')?>/picture/block9_img2.png" class="block9_img" alt="duduk_img"> <br>
+                                                                  <img src="<?php bloginfo('template_url')?>/picture/block9_img3.png" class="block9_img" alt="duduk_img">
+                                                                  <img src="<?php bloginfo('template_url')?>/picture/block9_img4.png" class="block9_img" alt="duduk_img">
+                                                              </div>
+                                                              <div class="inlineBlock">
+                                                                  <img src="<?php bloginfo('template_url')?>/picture/block9_img5.png" class="block9_img5" alt="duduk_img">
+                                                              </div>
+                                                          </div>
+                                                          <div class="row">
+                                                              <div class="col-xs-3">
+                                                                   <div>
+                                                                       Изготовлен из  абрикосового дерева
+                                                                   </div>
+                                                              </div>
+                                                              <div class="col-xs-3">
+                                                                  <div>
+                                                                      Идеальное звучание  каждой ноты
+                                                                  </div>
+                                                              </div>
+                                                              <div class="col-xs-3">
+                                                                  <div>
+                                                                      100% ручная работа  настоящего мастера
+                                                                  </div>
+                                                              </div>
+                                                              <div class="col-xs-3">
+                                                                  <div>
+                                                                      Пожизненная  гарантия
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                      <div class="col-xs-5">
+                                                          <div>
+                                                              <span class="ralewayBold">Цвет</span>: Темно-коричневый
+                                                          </div>
+                                                          <div>
+                                                              <span class="ralewayBold">Тональность</span>: Ля (in A)
+                                                          </div>
+                                                          <div>
+                                                              <span class="ralewayBold">Диапазон</span>: от F# малой октавы, до Н первой октавы
+                                                          </div>
+                                                          <div>
+                                                              <span class="ralewayBold">Длина</span>: 36 см
+                                                          </div>
+                                                          <div>
+                                                              <span class="ralewayBold">Комплектация</span>: дудук, 2 трости,  чехол, коробочка для трости,  п
+                                                          </div>
+                                                          <div>
+                                                              Стоимость: 18 000 руб.
+                                                          </div>
+                                                          <div>
+                                                              Стоимость: 18 000 руб.
+                                                          </div>
+                                                          <div class="searchDuduk text-center cursor inlineBlock">
+                                                              Заказать дудук
+                                                          </div>
+                                                      </div>
                         </div>
                     </div>
                 </div>
